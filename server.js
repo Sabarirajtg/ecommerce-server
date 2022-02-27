@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -22,4 +21,4 @@ app.use("/users", require("./routes/users"));
 app.use("/products", require("./routes/Product"));
 app.use("/purchases", require("./routes/Purchase"));
 
-app.listen(process.env.PORT || 4000, () => console.log("server started at 8080"));
+app.listen(process.env.PORT || 4000, () => console.log("server started"));
