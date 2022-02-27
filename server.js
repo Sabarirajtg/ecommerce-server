@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 mongoose.connect(
-  "mongodb+srv://newUser:merncrud@cluster0.hgmf2.mongodb.net/vijay?retryWrites=true&w=majority",
+  "mongodb+srv://admin:admin@infotix.yvteh.mongodb.net/retail?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
 
