@@ -12,9 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^6.0.8",
-    "netlify-cli": "^9.8.3",
-    "serverless-http": "^2.7.0"
+    "mongoose": "^6.0.8"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
